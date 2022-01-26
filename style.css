@@ -71,6 +71,7 @@ main{
     padding: 50px 40px;
     font-size: 3.5vw;
     line-height: 7vh;
+    display: block;
 }
 
 #shadowb{
