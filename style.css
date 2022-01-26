@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+/*
+font-family: 'Passion One', cursive; 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+/*
+font-family: 'Sriracha', cursive;
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    font-size: 1em;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    min-height: 30vh;
+    background-color: black;
+    color: white;
+    font-family: 'Passion One', cursive;
+}
+
+header>h1{
+    font-family: 'Passion One', cursive;
+    margin: 0px ;
+    padding: 10vh 0px 0px;
+    text-align: center;
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+header>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px 0px 10vh;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+main{
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-attachment: fixed;
+    background-position: center center;
+    line-height: 6vh;
+}
+
+.p1{
+    margin: 0px;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Sriracha', cursive;
+    padding: 50px 40px;
+    font-size: 3.5vw;
+    line-height: 7vh;
+}
+
+#shadowb{
+    margin: 0px;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Sriracha', cursive;
+    padding: 50px 40px;
+    font-size: 3.5vw;
+    box-shadow: 0px 2px 15px black;
+}
+
+#shadowc{
+    margin: 0px;
+    height: 50vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Sriracha', cursive;
+    padding: 80px 40px;
+    font-size: 3.5vw;
+    box-shadow: 0px -2px 15px black;
+}
+
+
+.p2{
+    margin: 50px 35px;
+    padding: 5px;
+    font-family: 'Sriracha', cursive; 
+    color: white;
+    font-size: 3.5vw;
+    line-height: 7vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    width: 50vw;
+    min-height: 45vh;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+}
+
+section#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    background-attachment: fixed;
+    background-position: center center;
+    line-height: 7vh;
+    min-height: 45vh;
+    box-shadow: inset 0px 2px 15px black;
+    box-shadow: inset 0px -2px 15px black;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+
+footer>p{
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+}
